@@ -1,6 +1,0 @@
-@PDD_Archivos_HostAddress = http://localhost:5245
-
-GET {{PDD_Archivos_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

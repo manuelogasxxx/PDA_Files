@@ -1,0 +1,14 @@
+services:
+  bd-archivos:
+    image: mongodb/mongodb-community-server:latest
+    container_name: bd-archivos
+    ports:
+      - "27017:27017"
+    # Activamos el Replica Set pero sin el flag de --keyFile
+    command: ["mongod", "--bind_ip_all", "--replSet", "rs0"]
+    volumes:
+      - mongo-data:/data/db
+    restart: unless-stopped
+
+volumes:
+  mongo-data:
