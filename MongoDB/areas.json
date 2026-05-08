@@ -1,0 +1,65 @@
+{
+  "id":"1",
+  "areas": [
+    {
+      "areaId": "cs",
+      "nombreArea": "Ciencias de la Computación",
+      "subcategorias": [
+        { "id": "cs-ai",  "nombre": "Artificial intelligence and machine learning",       "nombreMostrar": "Inteligencia Artificial y Machine Learning" },
+        { "id": "cs-se",  "nombre": "Software engineering and system architecture",       "nombreMostrar": "Ingeniería de Software y Arquitecturas" },
+        { "id": "cs-net", "nombre": "Computer networks and distributed systems",          "nombreMostrar": "Redes y Sistemas Distribuidos" },
+        { "id": "cs-sec", "nombre": "Computer security and cryptography",                 "nombreMostrar": "Seguridad Informática" },
+        { "id": "cs-db",  "nombre": "Databases and information systems",                  "nombreMostrar": "Bases de Datos y Sistemas de Información" },
+        { "id": "cs-hci", "nombre": "Human computer interaction and user experience",     "nombreMostrar": "Interacción Humano-Computadora" }
+      ]
+    },
+    {
+      "areaId": "math",
+      "nombreArea": "Matemáticas",
+      "subcategorias": [
+        { "id": "math-st", "nombre": "Statistics and probability theory",                 "nombreMostrar": "Estadística y Probabilidad" },
+        { "id": "math-al", "nombre": "Algebra and discrete mathematics",                  "nombreMostrar": "Álgebra y Matemáticas Discretas" },
+        { "id": "math-an", "nombre": "Numerical analysis and mathematical optimization",  "nombreMostrar": "Análisis Numérico y Optimización" },
+        { "id": "math-ca", "nombre": "Calculus and differential equations",               "nombreMostrar": "Cálculo y Ecuaciones Diferenciales" }
+      ]
+    },
+    {
+      "areaId": "med",
+      "nombreArea": "Medicina y Ciencias de la Salud",
+      "subcategorias": [
+        { "id": "med-cl",  "nombre": "Clinical medicine and patient care",                "nombreMostrar": "Medicina Clínica" },
+        { "id": "med-bi",  "nombre": "Bioinformatics and computational biology",          "nombreMostrar": "Bioinformática y Biología Computacional" },
+        { "id": "med-ph",  "nombre": "Public health and epidemiology",                    "nombreMostrar": "Salud Pública y Epidemiología" },
+        { "id": "med-ph2", "nombre": "Pharmacology and drug development",                 "nombreMostrar": "Farmacología" }
+      ]
+    },
+    {
+      "areaId": "eng",
+      "nombreArea": "Ingeniería",
+      "subcategorias": [
+        { "id": "eng-el", "nombre": "Electrical and electronic engineering",              "nombreMostrar": "Ingeniería Eléctrica y Electrónica" },
+        { "id": "eng-me", "nombre": "Mechanical and structural engineering",              "nombreMostrar": "Ingeniería Mecánica y Estructural" },
+        { "id": "eng-ci", "nombre": "Civil and environmental engineering",                "nombreMostrar": "Ingeniería Civil y Ambiental" },
+        { "id": "eng-ch", "nombre": "Chemical and materials engineering",                 "nombreMostrar": "Ingeniería Química y Materiales" }
+      ]
+    },
+    {
+      "areaId": "phys",
+      "nombreArea": "Física y Astronomía",
+      "subcategorias": [
+        { "id": "phys-qm", "nombre": "Quantum mechanics and particle physics",            "nombreMostrar": "Mecánica Cuántica y Física de Partículas" },
+        { "id": "phys-as", "nombre": "Astrophysics and cosmology",                        "nombreMostrar": "Astrofísica y Cosmología" },
+        { "id": "phys-th", "nombre": "Thermodynamics and statistical physics",            "nombreMostrar": "Termodinámica y Física Estadística" }
+      ]
+    },
+    {
+      "areaId": "bio",
+      "nombreArea": "Biología y Ciencias de la Vida",
+      "subcategorias": [
+        { "id": "bio-mo", "nombre": "Molecular biology and genetics",                     "nombreMostrar": "Biología Molecular y Genética" },
+        { "id": "bio-ec", "nombre": "Ecology and environmental science",                  "nombreMostrar": "Ecología y Ciencias Ambientales" },
+        { "id": "bio-ne", "nombre": "Neuroscience and cognitive science",                 "nombreMostrar": "Neurociencia y Ciencias Cognitivas" }
+      ]
+    }
+  ]
+}

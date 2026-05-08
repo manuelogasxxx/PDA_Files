@@ -38,3 +38,5 @@ docker exec -it bd-archivos mongosh -u admin -p password123 --eval "rs.initiate(
 4. La cadena de conexión es: mongodb://admin:password123@localhost:27017/?authSource=admin&replicaSet=rs0
 var connectionString = "mongodb://localhost:27017/?replicaSet=rs0";
 
+5.Despues de ejecutar el micriservicio de archivos es necesario ejecutar el endpoint "/api/files/inicializar-catalogo" con el JSON que aparece en esta carpeta "areas.json" 
+
